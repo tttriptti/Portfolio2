@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C5CFF" />
+      <stop offset="100%" stop-color="#00E0FF" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" rx="24" fill="#101523"/>
+  <g opacity="0.6">
+    <circle cx="180" cy="120" r="220" fill="#7C5CFF" fill-opacity="0.18"/>
+    <circle cx="1000" cy="120" r="200" fill="#00E0FF" fill-opacity="0.18"/>
+    <circle cx="600" cy="620" r="320" fill="#FF7CE5" fill-opacity="0.14"/>
+  </g>
+  <rect x="60" y="60" width="1080" height="480" rx="18" fill="#0D1220" stroke="rgba(255,255,255,0.12)"/>
+  <text x="600" y="170" text-anchor="middle" font-family="Inter, Arial" font-size="32" font-weight="800" fill="url(#g)">Indian General Elections 2024</text>
+  <rect x="160" y="240" width="880" height="220" rx="10" fill="#141B2E" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="200" y="380" width="60" height="70" fill="#7C5CFF" rx="6"/>
+  <rect x="300" y="350" width="60" height="100" fill="#00E0FF" rx="6"/>
+  <rect x="400" y="320" width="60" height="130" fill="#FF7CE5" rx="6"/>
+  <rect x="500" y="300" width="60" height="150" fill="#7C5CFF" rx="6"/>
+  <rect x="600" y="330" width="60" height="120" fill="#00E0FF" rx="6"/>
+  <rect x="700" y="360" width="60" height="90" fill="#FF7CE5" rx="6"/>
+  <rect x="800" y="390" width="60" height="60" fill="#7C5CFF" rx="6"/>
+</svg>
+
+

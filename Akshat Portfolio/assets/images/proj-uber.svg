@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C5CFF" />
+      <stop offset="100%" stop-color="#00E0FF" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" rx="24" fill="#101523"/>
+  <g opacity="0.6">
+    <circle cx="160" cy="120" r="200" fill="#7C5CFF" fill-opacity="0.18"/>
+    <circle cx="1040" cy="120" r="200" fill="#00E0FF" fill-opacity="0.18"/>
+    <circle cx="600" cy="600" r="320" fill="#FF7CE5" fill-opacity="0.14"/>
+  </g>
+  <rect x="60" y="60" width="1080" height="480" rx="18" fill="#0D1220" stroke="rgba(255,255,255,0.12)"/>
+  <text x="600" y="170" text-anchor="middle" font-family="Inter, Arial" font-size="32" font-weight="800" fill="url(#g)">Uber Ride EDA</text>
+  <g>
+    <path d="M200 420 C 260 360, 340 360, 400 420 C 460 480, 540 480, 600 420 C 660 360, 740 360, 800 420 C 860 480, 940 480, 1000 420" stroke="#7C5CFF" stroke-width="8" fill="none"/>
+    <circle cx="200" cy="420" r="6" fill="#7C5CFF"/>
+    <circle cx="400" cy="420" r="6" fill="#7C5CFF"/>
+    <circle cx="600" cy="420" r="6" fill="#7C5CFF"/>
+    <circle cx="800" cy="420" r="6" fill="#7C5CFF"/>
+    <circle cx="1000" cy="420" r="6" fill="#7C5CFF"/>
+  </g>
+</svg>
+
+

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Akshat Gupta — Portfolio</title>
+    <meta name="description" content="Akshat Gupta | B.Tech Chemical Engineering | Data & Business Analytics Enthusiast" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/images/placeholder.svg" />
+  </head>
+  <body class="light">
+    <!-- Sticky Header with Navigation -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#home" class="brand" aria-label="Go to home">
+          <span class="brand-mark" aria-hidden="true">AG</span>
+          <span class="brand-name">Akshat Gupta</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="section hero section-observe">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <img src="assets/images/akshatkiphoto.jpeg" alt="Akshat Gupta portrait" loading="lazy" class="hero-avatar" />
+            <h1 class="gradient-text">Akshat Gupta</h1>
+            <p class="subtitle">B.Tech Chemical Engineering | Data & Business Analytics Enthusiast</p>
+            <p class="intro">
+              I explore data to uncover actionable insights and build interactive dashboards. Passionate about solving
+              operational problems, optimizing processes, and crafting clean visual stories from complex datasets.
+            </p>
+            <div class="cta-group">
+              <a class="btn btn-primary" href="assets/resume/Akshat_Gupta_Resume.pdf" target="_blank" rel="noopener" download>Download Resume</a>
+              <a class="btn btn-secondary" href="#contact">Contact Me</a>
+            </div>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/akshatgupta0105/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+              <a href="https://github.com/AkshatGupta0105" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">GitHub</a>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section section-observe">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>Education</h3>
+              <ul class="timeline">
+                <li>
+                  <div class="timeline-point"></div>
+                  <div class="timeline-content">
+                    <h4>B.Tech, Chemical Engineering</h4>
+                    <p>Maulana Azad National Institute of Technology, Bhopal (2022–Present)</p>
+                    <p><strong>CGPA:</strong> 8.24</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-point"></div>
+                  <div class="timeline-content">
+                    <h4>Class 12 (PCM + CS)</h4>
+                    <p>Campion School, Bhopal (2021–2022) — 92.2% (CBSE)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-point"></div>
+                  <div class="timeline-content">
+                    <h4>Class 10</h4>
+                    <p>Campion School, Bhopal (2019–2020) — 95.6% (CBSE)</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="about-card">
+              <h3>Who I Am</h3>
+              <p>
+                I am a data and business analytics enthusiast with hands-on experience across SQL, Power BI, Excel,
+                and Python. I enjoy translating raw data into insights and building dashboards that drive decisions.
+                Beyond data, I lead and perform as a vocalist, actively contributing to student organizations.
+              </p>
+              <div class="quick-facts">
+                <div class="fact"><span>📞</span> +91 8109507332</div>
+                <div class="fact"><span>📧</span> akshatgupta0105@gmail.com</div>
+                <div class="fact"><span>🔗</span> <a href="https://www.linkedin.com/in/akshatgupta0105/" target="_blank" rel="noopener">LinkedIn</a></div>
+                <div class="fact"><span>💻</span> <a href="https://github.com/AkshatGupta0105" target="_blank" rel="noopener">GitHub</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section section-observe">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="card project-card" tabindex="0" data-modal-title="Indian General Elections 2024 Analysis" data-modal-tech="SQL, Power BI, Power Query" data-modal-body="Developed 20+ SQL queries on 1M+ voter records across 543 constituencies. Automated insights for 1,500+ candidates using CTEs, joins, and aggregations, reducing manual effort by 60%. Designed 6 interactive Power BI dashboards with 12+ visualizations covering turnout, party performance, candidates, and geo trends." data-modal-link="https://github.com/AkshatGupta0105/India-General-Elections-2024-Data-Analysis-Interactive-Dashboard-SQL-Power-BI-Capstone-Project-">
+              <img src="assets/images/proj-elections.svg" alt="Indian General Elections project thumbnail" class="card-media" />
+              <div class="card-body">
+                <h3 class="card-title">Indian General Elections 2024 Analysis</h3>
+                <p class="card-desc">End-to-end data analytics capstone using SQL and Power BI with interactive dashboards.</p>
+                <div class="tech">SQL • Power BI • Power Query</div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost read-more">Read More</button>
+                  <a class="btn btn-link" href="https://github.com/AkshatGupta0105/India-General-Elections-2024-Data-Analysis-Interactive-Dashboard-SQL-Power-BI-Capstone-Project-" target="_blank" rel="noopener">Repo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="card project-card" tabindex="0" data-modal-title="Blinkit Business Intelligence Dashboard" data-modal-tech="Microsoft Excel" data-modal-body="Built an interactive Excel dashboard analyzing 109K+ Blinkit records. Improved data accuracy by 98%, uncovering sales trends, KPIs, and top products using 12+ pivot tables and slicers." data-modal-link="https://github.com/AkshatGupta0105/BlinkIT-Sales-Data-Analysis-Project-using-Microsoft-Excel">
+              <img src="assets/images/proj-blinkit.svg" alt="Blinkit dashboard project thumbnail" class="card-media" />
+              <div class="card-body">
+                <h3 class="card-title">Blinkit Business Intelligence Dashboard</h3>
+                <p class="card-desc">Interactive Excel dashboard covering KPIs and product insights from 109K+ records.</p>
+                <div class="tech">Excel • Pivot Tables • Slicers</div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost read-more">Read More</button>
+                  <a class="btn btn-link" href="https://github.com/AkshatGupta0105/BlinkIT-Sales-Data-Analysis-Project-using-Microsoft-Excel" target="_blank" rel="noopener">Repo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="card project-card" tabindex="0" data-modal-title="Uber Ride Patterns & Trend Analysis (EDA)" data-modal-tech="Python, Jupyter" data-modal-body="Explored 1,100+ ride records to find behavioral and time-based trends. Analyzed trip purpose, peak times, and travel distances to identify usage patterns." data-modal-link="https://github.com/AkshatGupta0105/Uber-Data-Analysis-Project-using-Python">
+              <img src="assets/images/proj-uber.svg" alt="Uber EDA project thumbnail" class="card-media" />
+              <div class="card-body">
+                <h3 class="card-title">Uber Ride Patterns & Trend Analysis</h3>
+                <p class="card-desc">EDA on ride records to uncover usage patterns and behavioral insights.</p>
+                <div class="tech">Python • Jupyter</div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost read-more">Read More</button>
+                  <a class="btn btn-link" href="https://github.com/AkshatGupta0105/Uber-Data-Analysis-Project-using-Python" target="_blank" rel="noopener">Repo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="card project-card" tabindex="0" data-modal-title="Zepto Inventory Data Analysis (EDA)" data-modal-tech="PostgreSQL" data-modal-body="Cleaned and modeled data for 3,000+ SKUs, flagging ₹500+ stockouts for inventory optimization. Built queries to monitor stock levels and identify bottlenecks." data-modal-link="https://github.com/AkshatGupta0105/zepto-SQL-data-analysis-project">
+              <img src="assets/images/proj-zepto.svg" alt="Zepto SQL project thumbnail" class="card-media" />
+              <div class="card-body">
+                <h3 class="card-title">Zepto Inventory Data Analysis</h3>
+                <p class="card-desc">PostgreSQL-based EDA for SKU management and stockout detection.</p>
+                <div class="tech">PostgreSQL</div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost read-more">Read More</button>
+                  <a class="btn btn-link" href="https://github.com/AkshatGupta0105/zepto-SQL-data-analysis-project" target="_blank" rel="noopener">Repo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 5 -->
+            <article class="card project-card" tabindex="0" data-modal-title="Meesho Business Consulting Report" data-modal-tech="Business Analysis, Strategy" data-modal-body="A detailed consulting report on Meesho covering growth, market position, and operational challenges. Provides data-backed strategies to improve supply chain efficiency and overall performance." data-modal-link="https://github.com/AkshatGupta0105/meesho-report">
+              <img src="assets/images/proj-meesho.svg" alt="Meesho consulting report project thumbnail" class="card-media" />
+              <div class="card-body">
+                <h3 class="card-title">Meesho Business Consulting Report</h3>
+                <p class="card-desc">Data-backed strategy recommendations and operational insights for Meesho.</p>
+                <div class="tech">Consulting • Strategy</div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost read-more">Read More</button>
+                  <a class="btn btn-link" href="https://github.com/AkshatGupta0105/meesho-report" target="_blank" rel="noopener">Repo ↗</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section section-observe">
+        <div class="container">
+          <h2 class="section-title">Experience</h2>
+          <article class="card">
+            <div class="card-body">
+              <h3 class="card-title">Data Operation & Optimization Intern — HEG, Mandideep</h3>
+              <p class="muted">May 2024</p>
+              <ul class="list">
+                <li>Analyzed 100K+ process records on vacuum cycles to identify performance gaps.</li>
+                <li>Delivered 4+ recommendations improving operational efficiency by 15% and reducing delays.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section section-observe">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills">
+            <div class="skill-badge" data-skill="C">C</div>
+            <div class="skill-badge" data-skill="Python">Python</div>
+            <div class="skill-badge" data-skill="SQL">SQL</div>
+            <div class="skill-badge" data-skill="PostgreSQL">PostgreSQL</div>
+            <div class="skill-badge" data-skill="Excel">Microsoft Excel</div>
+            <div class="skill-badge" data-skill="PowerPoint">Microsoft PowerPoint</div>
+            <div class="skill-badge" data-skill="Power BI">Power BI</div>
+            <div class="skill-badge" data-skill="Jupyter">Jupyter Notebook</div>
+            <div class="skill-badge" data-skill="Leadership">Leadership</div>
+            <div class="skill-badge" data-skill="Strategy">Strategic Thinking</div>
+            <div class="skill-badge" data-skill="Public Speaking">Public Speaking</div>
+            <div class="skill-badge" data-skill="English">English</div>
+            <div class="skill-badge" data-skill="Hindi">Hindi</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements & Positions -->
+      <section id="achievements" class="section section-observe">
+        <div class="container">
+          <h2 class="section-title">Achievements & Positions</h2>
+          <div class="achievements-grid">
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Records & Awards</h3>
+                <ul class="list">
+                  <li>Indian Book of Records & Asia Book of Records — Smallest handicraft (8mm × 5mm).</li>
+                  <li>Gold Medal — Bhopal District Singing Competition (500+ participants).</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Positions & Responsibilities</h3>
+                <ul class="list">
+                  <li>Public Relation & Management Executive — AAROHA MANIT CHAPTER (May 2023–Present)</li>
+                  <li>Lead Vocalist — Roobaroo (Mar 2023–Present)</li>
+                  <li>Social Media Head & Senior Executive — ChESA-MANIT (May 2023–Aug 2024)</li>
+                  <li>Sports Coordinator & House Prefect — School Cabinet (Jun 2021–Feb 2022)</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section section-observe">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-wrap">
+            <form id="contactForm" class="contact-form">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+            <div class="contact-aside">
+              <h3>Connect</h3>
+              <p>
+                I’m open to internships and collaborations in data analytics and business intelligence. Reach out via
+                the form or connect on LinkedIn.
+              </p>
+              <div class="socials">
+                <a href="https://www.linkedin.com/in/akshatgupta0105/" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
+                <a href="https://github.com/AkshatGupta0105" target="_blank" rel="noopener" class="social-link">GitHub</a>
+                <a href="mailto:akshatgupta0105@gmail.com" class="social-link">Email</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Akshat Gupta. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-dialog" role="document">
+        <button class="modal-close" data-close aria-label="Close">×</button>
+        <div class="modal-content">
+          <h3 id="modalTitle">Title</h3>
+          <p class="muted" id="modalTech"></p>
+          <p id="modalBody"></p>
+          <div class="modal-actions">
+            <a id="modalLink" href="#" target="_blank" rel="noopener" class="btn btn-primary">Open Repository ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
